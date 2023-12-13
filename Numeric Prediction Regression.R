@@ -1,7 +1,4 @@
-insurance <- read.csv("/Users/USUARIO.DESKTOP-7RETBCV/Documents/
-                      MEGA/ESTUDIOS PERSONALES/INTERCAMBIO/Goethe Universität/
-                      CURSOS/Informationssysteme für das Management/DataSets/
-                      insurance.csv",stringsAsFactors = TRUE)
+insurance <- read.csv("insurance.csv",stringsAsFactors = TRUE)
 
 #DATOS Y DISTRIBUCIÓN
 str(insurance)
