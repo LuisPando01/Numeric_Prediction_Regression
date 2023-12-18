@@ -60,6 +60,7 @@ legend("topleft",inset=.02,c("actual","predicted"),lty=c(1,2),
 
 #EVALUATE MODEL RESSULTS
 summary(ins_model)
+
 #Age and BMI (30+ probably) are more related to the outcome
 #Smoking is also related, but smoking and obesity can be even worse
 
